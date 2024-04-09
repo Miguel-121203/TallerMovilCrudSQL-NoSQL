@@ -11,9 +11,8 @@ import org.springframework.data.mongodb.core.mapping.Field;
 public class Libro {
 
    @Id
-    private String id; // llave primaria de tipo id
+    private String id;
 
-    // Atributos de la clase
     @Field
     private String titulo;
 
